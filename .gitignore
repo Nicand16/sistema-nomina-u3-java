@@ -1,0 +1,11 @@
+# Resultados reproducibles de compilación y temporales locales
+/target/
+/tmp/
+
+# Renders internos de control documental y vistas del PDF fuente
+/docs/render_qa/
+/docs/consigna_render/
+
+# Herramientas auxiliares ligadas al runtime local de Codex
+/tools/
+

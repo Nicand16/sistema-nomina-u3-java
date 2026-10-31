@@ -1,0 +1,7 @@
+DEMO ACADEMICA - tasas no suministradas por la consigna pueden ser ilustrativas
+Registros y nombres ficticios; no representan empleados reales.
+ARL configurada: 1.0% | Comision configurada: 5.0%
+Caso asalariado | bruto COP $ 4.400.000,00 | beneficio empresa COP $ 1.000.000,00 | SS+P COP $ 176.000,00 | ARL COP $ 44.000,00 | ahorro COP $ 0,00 | neto COP $ 4.180.000,00
+Caso por horas | bruto COP $ 950.000,00 | beneficio empresa COP $ 0,00 | SS+P COP $ 38.000,00 | ARL COP $ 9.500,00 | ahorro COP $ 19.000,00 | neto COP $ 883.500,00
+Caso por comision | bruto COP $ 5.000.000,00 | beneficio empresa COP $ 1.000.000,00 | SS+P COP $ 200.000,00 | ARL COP $ 50.000,00 | ahorro COP $ 0,00 | neto COP $ 4.750.000,00
+Caso temporal | bruto COP $ 1.800.000,00 | beneficio empresa COP $ 0,00 | SS+P COP $ 72.000,00 | ARL COP $ 18.000,00 | ahorro COP $ 0,00 | neto COP $ 1.710.000,00

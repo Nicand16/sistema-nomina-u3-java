@@ -1,0 +1,28 @@
+[
+  {
+    "file": "01_pruebas_unitarias.png",
+    "view": "Pruebas unitarias",
+    "resolutionCssPixels": {
+      "width": 1600,
+      "height": 1100
+    },
+    "sourceHtml": "docs\\evidence\\pruebas_unitarias.html",
+    "resultSource": "Maven Surefire XML generated from 10 JUnit unit tests; 0 failures, 0 errors, 0 skipped.",
+    "capturedAt": "2026-10-31 15:01:14 America/Bogota",
+    "browser": "Microsoft Edge via bundled Playwright, headless local render",
+    "version": "nomina-cipa-u3 1.0.0"
+  },
+  {
+    "file": "02_demostracion_nomina.png",
+    "view": "Salida de ejemplo del sistema",
+    "resolutionCssPixels": {
+      "width": 1600,
+      "height": 1100
+    },
+    "sourceHtml": "docs\\evidence\\demostracion_nomina.html",
+    "resultSource": "Exact console output captured from PayrollDemo; ARL 1.0% and commission 5.0% marked illustrative only.",
+    "capturedAt": "2026-10-31 15:01:14 America/Bogota",
+    "browser": "Microsoft Edge via bundled Playwright, headless local render",
+    "version": "nomina-cipa-u3 1.0.0"
+  }
+]
