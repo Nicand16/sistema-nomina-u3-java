@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>co.edu.unicartagena</groupId>
-    <artifactId>nomina-cipa-u3</artifactId>
+    <artifactId>sistema-nomina-u3</artifactId>
     <version>1.0.0</version>
-    <name>Sistema de Nomina CIPA U3</name>
+    <name>Sistema de Nomina Unidad 3</name>
     <description>Ejercicio academico de nomina orientado a objetos</description>
 
     <properties>

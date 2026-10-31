@@ -1,28 +1,37 @@
-[
-  {
-    "file": "01_pruebas_unitarias.png",
-    "view": "Pruebas unitarias",
-    "resolutionCssPixels": {
-      "width": 1600,
-      "height": 1100
+{
+  "version": 1,
+  "screenshots": [
+    {
+      "file": "01_ejecucion_pruebas.png",
+      "source": "docs/evidence/pruebas_maven_real.txt",
+      "page": "Maven Surefire/JUnit output",
+      "section": "Clean compilation and unit tests",
+      "result": "10 tests; 0 failures; 0 errors; 0 skipped; BUILD SUCCESS",
+      "capture_method": "Screenshot of the original execution log rendered as plain text in a local browser.",
+      "url": "http://127.0.0.1:8765/pruebas_maven_real.txt?version=2",
+      "resolution_px": {
+        "width": 705,
+        "height": 742
+      },
+      "captured_at_local": "2026-10-31T15:50:26-05:00",
+      "project_version": "Payroll system U3 Java, 2026-10-31",
+      "note": "Image preserves the execution output; no test results or payroll values were added or altered."
     },
-    "sourceHtml": "docs\\evidence\\pruebas_unitarias.html",
-    "resultSource": "Maven Surefire XML generated from 10 JUnit unit tests; 0 failures, 0 errors, 0 skipped.",
-    "capturedAt": "2026-10-31 15:01:14 America/Bogota",
-    "browser": "Microsoft Edge via bundled Playwright, headless local render",
-    "version": "nomina-cipa-u3 1.0.0"
-  },
-  {
-    "file": "02_demostracion_nomina.png",
-    "view": "Salida de ejemplo del sistema",
-    "resolutionCssPixels": {
-      "width": 1600,
-      "height": 1100
-    },
-    "sourceHtml": "docs\\evidence\\demostracion_nomina.html",
-    "resultSource": "Exact console output captured from PayrollDemo; ARL 1.0% and commission 5.0% marked illustrative only.",
-    "capturedAt": "2026-10-31 15:01:14 America/Bogota",
-    "browser": "Microsoft Edge via bundled Playwright, headless local render",
-    "version": "nomina-cipa-u3 1.0.0"
-  }
-]
+    {
+      "file": "02_ejecucion_demo.png",
+      "source": "docs/evidence/demo_nomina_real.txt",
+      "page": "PayrollDemo output",
+      "section": "Demonstration of four employment types",
+      "result": "The application printed four payroll results using demonstration values.",
+      "capture_method": "Screenshot of the original standard output rendered as plain text in a local browser.",
+      "url": "http://127.0.0.1:8765/demo_nomina_real.txt?version=2",
+      "resolution_px": {
+        "width": 720,
+        "height": 240
+      },
+      "captured_at_local": "2026-10-31T15:50:31-05:00",
+      "project_version": "Payroll system U3 Java, 2026-10-31",
+      "note": "Image preserves the execution output; no test results or payroll values were added or altered."
+    }
+  ]
+}

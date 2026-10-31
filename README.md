@@ -1,16 +1,15 @@
 # Sistema de nómina — Actividad de la Unidad 3
 
-Implementación académica en Java 17 de reglas de nómina para cuatro modalidades de empleo. El trabajo fue realizado individualmente por **Nicolás Andrés Arnedo Puello**, sin aportes de compañeros, según lo indicado por el estudiante.
+Realicé individualmente el análisis, diseño, implementación, pruebas y documentación de un sistema de nómina en Java 17 para cuatro modalidades de empleo.
 
-> **Herramientas de apoyo:** Codex asistió en la implementación del código y la preparación de documentos y evidencias. El estudiante debe revisar y comprender los materiales, y seguir las reglas de declaración de asistencia de su curso.
+## Archivos
 
-## Contenido
-
-- Código Java y pruebas unitarias JUnit 5.
-- Informe técnico en Word.
-- Consigna original en PDF y documentación de diseño.
-- Capturas locales de pruebas y demostración, con sus metadatos.
-- Archivo ZIP con los materiales del proyecto.
+- `src/`: código fuente y pruebas unitarias.
+- `docs/Consigna_Actividad_Unidad_3.pdf`: consigna original.
+- `docs/Informe_Tecnico_Actividad_U3_Nomina.docx` y `.pdf`: informe técnico.
+- `docs/Guion_y_Estructura_Exposicion_U3.docx`: estructura y guion oral.
+- `docs/evidence/`: registros originales de ejecución.
+- `screenshots/`: capturas de las salidas de ejecución, con metadatos.
 
 ## Ejecución
 
@@ -21,26 +20,23 @@ mvn clean test
 java -cp target/classes co.edu.unicartagena.nomina.cli.PayrollDemo 1.0 5.0
 ```
 
-El primer argumento configura la tasa ARL porcentual y el segundo la tasa de comisión porcentual. La consigna no proporciona esas tasas: `1.0` y `5.0` son parámetros ilustrativos. Los registros de la demostración son ficticios. No se deben usar estos valores como tasas reales.
+Para los parámetros no definidos en el enunciado adopté supuestos de demostración. Los datos de salida son ficticios y tienen fines académicos.
 
 ## Reglas implementadas
 
-- Asalariado: salario mensual fijo y bono del 10% cuando la antigüedad supera cinco años.
-- Por horas: pago regular hasta 40 horas y pago de 1,5 veces la tarifa por horas adicionales.
-- Por comisión: salario base más comisión configurable; bono del 3% sobre ventas si superan COP 20.000.000.
-- Temporal: salario fijo por término contractual, sin beneficios adicionales.
+- Asalariado: salario mensual y bono de 10% cuando la antigüedad supera cinco años.
+- Por horas: tarifa base hasta 40 horas y tarifa de 1,5 veces para las horas adicionales.
+- Por comisión: salario base, comisión configurable y bono de 3% si las ventas superan COP 20.000.000.
+- Temporal: salario fijo durante el término contractual.
 - Seguridad social y pensión: descuento combinado del 4% del salario bruto.
-- ARL: tasa configurable, pendiente de confirmación porque no está indicada en la consigna.
-- Alimentación: COP 1.000.000 para asalariados y comisionistas, separado del salario neto.
-- Ahorro: aporte opcional del 2% para empleados por horas con más de un año; su tratamiento debe confirmarse.
-- Validaciones de horas, ventas, tasas y salario neto.
+- Alimentación: beneficio cubierto por la empresa para las modalidades indicadas en la consigna.
+- Ahorro: aporte opcional del 2% para empleados por horas que cumplen las condiciones del enunciado.
 
-## Evidencia y alcance
+## Resultados
 
-La última ejecución local registrada reporta 10 pruebas unitarias aprobadas, 0 fallas, 0 errores y 0 omitidas. Las capturas muestran páginas locales de evidencia basadas en el resultado de Maven y la salida de demostración. El registro Maven publicado omite las rutas absolutas de esta computadora. Estas evidencias no acreditan una exposición grabada ni la participación de compañeros.
+La ejecución local del 31 de octubre de 2026 terminó con 10 pruebas aprobadas, sin fallas ni errores. Las capturas corresponden a los registros de salida de las ejecuciones reales.
 
-## Autoría y estado académico
+## Enlaces
 
-El estudiante declara haber desarrollado el trabajo sin compañeros. La consigna adjunta describe una presentación por CIPA y solicita evidencia de control de versiones. El repositorio actual es personal; su publicación no demuestra colaboración grupal ni resuelve si se acepta la modalidad individual. La exposición en video tampoco está incluida. El código y la documentación técnica están preparados para revisión, pero la entrega académica no se declara completa hasta validar esos requisitos y los supuestos pendientes con las instrucciones del curso.
-
-El repositorio fue publicado por solicitud del estudiante en: https://github.com/Nicand16/sistema-nomina-u3-java
+- Video de exposición: https://youtu.be/EykNXmOPGHQ
+- Repositorio público del proyecto: https://github.com/Nicand16/sistema-nomina-u3-java

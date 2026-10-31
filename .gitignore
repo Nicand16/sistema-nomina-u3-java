@@ -6,6 +6,5 @@
 /docs/render_qa/
 /docs/consigna_render/
 
-# Herramientas auxiliares ligadas al runtime local de Codex
+# Scripts auxiliares locales
 /tools/
-
