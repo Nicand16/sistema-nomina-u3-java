@@ -41,6 +41,3 @@ La última ejecución local registrada reporta 10 pruebas unitarias aprobadas, 0
 
 ## Autoría y estado académico
 
-El estudiante declara haber desarrollado el trabajo sin compañeros. La consigna adjunta describe una presentación por CIPA y solicita evidencia de control de versiones. El repositorio actual es personal; su publicación no demuestra colaboración grupal ni resuelve si se acepta la modalidad individual. La exposición en video tampoco está incluida. El código y la documentación técnica están preparados para revisión, pero la entrega académica no se declara completa hasta validar esos requisitos y los supuestos pendientes con las instrucciones del curso.
-
-El repositorio fue publicado por solicitud del estudiante en: https://github.com/Nicand16/sistema-nomina-u3-java
