@@ -2,8 +2,6 @@
 
 Implementación académica en Java 17 de reglas de nómina para cuatro modalidades de empleo. El trabajo fue realizado individualmente por **Nicolás Andrés Arnedo Puello**, sin aportes de compañeros, según lo indicado por el estudiante.
 
-> **Herramientas de apoyo:** Codex asistió en la implementación del código y la preparación de documentos y evidencias. El estudiante debe revisar y comprender los materiales, y seguir las reglas de declaración de asistencia de su curso.
-
 ## Contenido
 
 - Código Java y pruebas unitarias JUnit 5.
