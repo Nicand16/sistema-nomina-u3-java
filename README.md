@@ -39,5 +39,3 @@ El primer argumento configura la tasa ARL porcentual y el segundo la tasa de com
 
 La última ejecución local registrada reporta 10 pruebas unitarias aprobadas, 0 fallas, 0 errores y 0 omitidas. Las capturas muestran páginas locales de evidencia basadas en el resultado de Maven y la salida de demostración. El registro Maven publicado omite las rutas absolutas de esta computadora. Estas evidencias no acreditan una exposición grabada ni la participación de compañeros.
 
-## Autoría y estado académico
-
